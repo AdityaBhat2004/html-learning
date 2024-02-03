@@ -1,0 +1,15 @@
+public class ArrayYaar{
+       public static void main(){
+}
+
+Public:
+Think of "public" like a gatekeeper in a program. It decides who can use a method. If you make the main() method public, it's like saying, "Everyone is welcome to use this method from anywhere in the code!"
+
+Static:
+"Static" is like a memory-saving superhero. It prevents unnecessary memory use by objects. When the main() method is static, it means we don't need to create an extra object just to call it. This helps the Java Virtual Machine (JVM) manage resources efficiently.
+
+Void:
+"Void" is a way of saying, "This method doesn't give you anything in return." When main() has void, it means the program's starting point doesn't produce a specific result; it just does its thing without expecting anything back.
+
+Main: 
+This is the special name we give to the main method of our Java program. When the computer starts running our Java program, it looks for a method named main. It's like telling the computer, "Hey, this is where you should start reading and following the instructions!”
